@@ -60,7 +60,7 @@ lbl16.place(x=145,y=410)
 
 ########################### mail ###########################################################
 def send_an_email():
-            me = 'msatkirti@gmail.com'     # enter your email id
+            me = '#enter your email#'     # enter your email id
             toaddr = mail_id                  # email id of person to send the mail      
             subject = "college authority"     # write Subject
                       
@@ -82,7 +82,7 @@ def send_an_email():
                 s.ehlo()  
                 s.starttls()
                 s.ehlo()  
-                s.login(user = 'msatkirti@gmail.com', password = 'kajal_mishra@10')  # User id & password
+                s.login(user = '#write your email id#', password = '#write password of your email id#')  # User id & password
                 s.send_message(msg)  
                 s.sendmail(me, toaddr, msg.as_string())  
                 s.quit()
