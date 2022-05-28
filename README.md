@@ -14,7 +14,7 @@
   * Insert the attendance in database.
   * A section where we can send attendance list via mail.
 
-### Steps to folow:
+## Steps to folow:
 
  * The code is written in Python 3.7.13
 
