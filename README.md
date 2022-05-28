@@ -31,4 +31,4 @@
 
  * Then run the smart_attendance.py file.
 
-### Use password = 123 while generating the database.
+###### Use password = 123 while generating the database.
